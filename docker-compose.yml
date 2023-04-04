@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  website:
+    image: 192.168.0.191/skifeeder/website:latest
+    build:
+      context: .
+    ports:
+      - "3004:3004"

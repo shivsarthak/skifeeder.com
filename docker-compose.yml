@@ -2,7 +2,7 @@ version: '3'
 
 services:
   website:
-    image: 192.168.0.191/skifeeder/website:latest
+    image: 192.168.0.191:5000/skifeeder/website:latest
     build:
       context: .
     ports:
